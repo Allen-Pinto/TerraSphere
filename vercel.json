@@ -6,11 +6,6 @@
   "devCommand": "npm run dev",
   "framework": "vite",
   "regions": ["iad1"],
-  "functions": {
-    "**/*.html": {
-      "runtime": "edge"
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
